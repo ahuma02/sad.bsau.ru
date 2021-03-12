@@ -1,0 +1,96 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.site-header {
+ 	background: #54B948
+ }
+.site-header h1 {
+	color: #e8dbd3;
+	margin: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 25px;
+  margin-left: 25%;
+color: #e8dbd3;
+
+
+}
+.site-header nav {
+  color: #e8dbd3;
+  margin: 2px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  vertical-align: top;
+
+}
+.site-header img {
+  margin: 10px;
+  padding: 20px;
+  float: left;
+}
+#footer{
+  text-align: center;
+  background: #54B948;
+  margin: auto; 
+  height: 100%;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+#footer,
+#footer a {
+color: white;
+text-decoration: none;
+}
+.social {
+list-style: none;
+display: inline-block;
+}
+.social li {
+margin-right: 20px;
+}
+.content {
+max-width: auto;
+margin: 0 auto;
+padding: 40px 20px;
+}
+.content h2 {
+  text-align: center;
+  color: red;
+}
+.img1 {
+position: relative;
+text-align: left;
+}
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.content2 {
+padding: 40px 20px;
+}
+.content2 h2 {
+  text-align: center;
+  color: red;
+}
+.infosite {
+  text-align: center;
+  background: white;
+}
