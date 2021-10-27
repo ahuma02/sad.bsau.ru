@@ -171,5 +171,11 @@ margin-right: 20px;
     overflow: hidden;
       display: flex;
       flex-direction: column;
-
    }
+.koko {
+  text-align: center;
+  font-size: 20px;
+  background-color: red;
+  margin-top: 10px;
+  color: white;
+}
